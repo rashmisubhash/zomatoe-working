@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import { React, useState } from "react";
+import "./App.css";
+import Header from "./components/Header";
+import Food from "./components/Food";
+import FoodOptions from "./components/FoodOptions";
+import FilterButtons from "./components/FilterButtons";
+import ColoredLine from "./components/ColoredLine";
+
+import LandingPage from "../src/pages/landingPage/index";
 
 function App() {
+  const [location, setLocation] = useState("Chennai");
+  const [searchQuery, setQuery] = useState("");
+  const [filters, setFilters] = useState({ rating: 0 });
+
+  const onChangeFilters = (filters) => {
+    setFilters(filters);
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <LandingPage />
+      {/* <FoodOptions /> */}
+      {/* <ColoredLine /> */}
+      {/* <FilterButtons filters={filters} onChangeFilters={onChangeFilters} /> */}
+      {/* <h1 className="mx-44 pt-4 text-3xl font-normal food-head" >Best Food in {location}</h1> */}
+      <Food filters={filters} />
     </div>
   );
 }

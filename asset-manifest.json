@@ -1,0 +1,22 @@
+{
+    "files": {
+      "main.css": "/potatoe/static/css/main.04fb3ebb.chunk.css",
+      "main.js": "/potatoe/static/js/main.f562a5d1.chunk.js",
+      "main.js.map": "/potatoe/static/js/main.f562a5d1.chunk.js.map",
+      "runtime-main.js": "/potatoe/static/js/runtime-main.8110c330.js",
+      "runtime-main.js.map": "/potatoe/static/js/runtime-main.8110c330.js.map",
+      "static/js/2.5a08977c.chunk.js": "/potatoe/static/js/2.5a08977c.chunk.js",
+      "static/js/2.5a08977c.chunk.js.map": "/potatoe/static/js/2.5a08977c.chunk.js.map",
+      "static/js/3.ef62473f.chunk.js": "/potatoe/static/js/3.ef62473f.chunk.js",
+      "static/js/3.ef62473f.chunk.js.map": "/potatoe/static/js/3.ef62473f.chunk.js.map",
+      "index.html": "/potatoe/index.html",
+      "static/css/main.04fb3ebb.chunk.css.map": "/potatoe/static/css/main.04fb3ebb.chunk.css.map",
+      "static/js/2.5a08977c.chunk.js.LICENSE.txt": "/potatoe/static/js/2.5a08977c.chunk.js.LICENSE.txt"
+    },
+    "entrypoints": [
+      "static/js/runtime-main.8110c330.js",
+      "static/js/2.5a08977c.chunk.js",
+      "static/css/main.04fb3ebb.chunk.css",
+      "static/js/main.f562a5d1.chunk.js"
+    ]
+  }
