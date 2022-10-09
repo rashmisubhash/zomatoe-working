@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/zomatoe-working/static/css/main.16cfa3f2.css",
+    "main.js": "/zomatoe-working/static/js/main.c59ae8e6.js",
+    "static/js/787.c24fd4d3.chunk.js": "/zomatoe-working/static/js/787.c24fd4d3.chunk.js",
+    "static/media/landingPageImage.jpg": "/zomatoe-working/static/media/landingPageImage.e816360cf5c99fc51af2.jpg",
+    "static/media/zomatoWhiteLogog.avif": "/zomatoe-working/static/media/zomatoWhiteLogog.1ae65b752fea00650c30.avif",
+    "index.html": "/zomatoe-working/index.html",
+    "main.16cfa3f2.css.map": "/zomatoe-working/static/css/main.16cfa3f2.css.map",
+    "main.c59ae8e6.js.map": "/zomatoe-working/static/js/main.c59ae8e6.js.map",
+    "787.c24fd4d3.chunk.js.map": "/zomatoe-working/static/js/787.c24fd4d3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.16cfa3f2.css",
+    "static/js/main.c59ae8e6.js"
+  ]
+}
