@@ -81,7 +81,7 @@ const LandingPage = (props) => {
         }
 
         .zomatoImage {
-          transform: translateY(-71px);
+          transform: translateY(-115px);
           height: 4rem;
           width: 16rem;
           background-size: contain;
