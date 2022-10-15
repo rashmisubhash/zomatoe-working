@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/zomatoe-working/static/css/main.c690471b.css",
-    "main.js": "/zomatoe-working/static/js/main.922e550a.js",
+    "main.css": "/zomatoe-working/static/css/main.cae7dc6e.css",
+    "main.js": "/zomatoe-working/static/js/main.bc7b324b.js",
     "static/js/787.c24fd4d3.chunk.js": "/zomatoe-working/static/js/787.c24fd4d3.chunk.js",
     "static/media/landingPageImage.jpg": "/zomatoe-working/static/media/landingPageImage.e816360cf5c99fc51af2.jpg",
     "static/media/zomatoWhiteLogog.avif": "/zomatoe-working/static/media/zomatoWhiteLogog.1ae65b752fea00650c30.avif",
     "static/media/zomatoBlack.avif": "/zomatoe-working/static/media/zomatoBlack.4a7c03595ff43bbd203c.avif",
     "index.html": "/zomatoe-working/index.html",
-    "main.c690471b.css.map": "/zomatoe-working/static/css/main.c690471b.css.map",
-    "main.922e550a.js.map": "/zomatoe-working/static/js/main.922e550a.js.map",
+    "main.cae7dc6e.css.map": "/zomatoe-working/static/css/main.cae7dc6e.css.map",
+    "main.bc7b324b.js.map": "/zomatoe-working/static/js/main.bc7b324b.js.map",
     "787.c24fd4d3.chunk.js.map": "/zomatoe-working/static/js/787.c24fd4d3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c690471b.css",
-    "static/js/main.922e550a.js"
+    "static/css/main.cae7dc6e.css",
+    "static/js/main.bc7b324b.js"
   ]
 }
