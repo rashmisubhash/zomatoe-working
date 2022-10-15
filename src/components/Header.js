@@ -23,11 +23,11 @@ const Header = (props) => {
       />
 
       {/* Dropdown start */}
-      <Menu as="div" className="relative mx-8 -mt-2 inline-block text-left loc-dropdown">
+      {/* <Menu as="div" className="relative mx-8 -mt-2 inline-block text-left loc-dropdown">
         {({ open }) => (
           <>
             <div>
-              {/*This dropdown will be appear on device widths 640px or higher and stay hidden on other widths.*/}
+              {/*This dropdown will be appear on device widths 640px or higher and stay hidden on other widths.
               <Menu.Button className="hidden sm:inline-flex  justify-center w-full rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -162,7 +162,7 @@ const Header = (props) => {
             </Transition>
           </>
         )}
-      </Menu>
+      </Menu> */}
       {/* Dropdown end */}
 
       <div className="ml-5 -mt-3  md:w-80 md:ml-0  max-w-6xl hidden  lg:w-auto md:inline-flex items-center shadow-md rounded-md border border-gray-300 search-bar">
@@ -170,8 +170,9 @@ const Header = (props) => {
           className=" w-96 py-4 px-6 text-gray-700 leading-tight focus:outline-none"
           id="search"
           type="text"
+          value={searchQuery}
           placeholder="Search for restaurant, cuisine or a dish"
-          onInputCapture={(e) => {
+          onChange={(e) => {
             setQuery(e.target.value);
           }}
         />

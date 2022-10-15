@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import landingPageImage from "../../assets/images/landingPageImage.jpg";
 import zomatoWhiteLogog from "../../assets/images/zomatoWhiteLogog.avif";
 
+import Header from "../../components/Header";
+
 const LandingPage = (props) => {
   const { searchCityRedux } = props;
 
@@ -13,7 +15,14 @@ const LandingPage = (props) => {
     setFilters(filters);
   };
   return (
-    <div className="landingPage">
+    <>
+    <Header
+          functions={[location, setLocation]}
+          setQuery={setQuery}
+          searchQuery={searchQuery}
+        />
+        <div className="dev">
+       <div className="landingPage">
       <div className="landingPageImageContainer">
         <img
           src={landingPageImage}
@@ -28,13 +37,12 @@ const LandingPage = (props) => {
         <h2 className="description">
           Discover the best food & drinks in {searchCityRedux}
         </h2>
-        {/* <Header
-          functions={[location, setLocation]}
-          setQuery={setQuery}
-          searchQuery={searchQuery}
-        /> */}
       </div>
       <style jsx>{`
+
+      .dev {
+        position: relative;
+      }
         .landingPage {
           height: calc(100vh - 35rem);
           min-height: 30rem;
@@ -45,7 +53,7 @@ const LandingPage = (props) => {
         .landingPageImageContainer {
           overflow: hidden;
           position: absolute;
-          top: 0px;
+          top: 20px;
           left: 0px;
           width: 100%;
           height: 100%;
@@ -100,12 +108,14 @@ const LandingPage = (props) => {
           font-size: 3.6rem;
         }
 
-        .header {
-          position: absolute;
-          background: none;
-        }
+        // .header {
+        //   position: absolute;
+        //   background: none;
+        // }
       `}</style>
     </div>
+    </div>
+    </>
   );
 };
 
