@@ -44,7 +44,7 @@ const LandingPage = (props) => {
         position: relative;
       }
         .landingPage {
-          height: calc(100vh - 35rem);
+          height: calc(100vh - 15rem);
           min-height: 30rem;
           max-height: 57rem;
           width: 100%;
@@ -66,7 +66,7 @@ const LandingPage = (props) => {
           height: 100%;
           width: 100%;
           background-size: cover;
-          transform: scale(1.3);
+          // transform: scale(1.3);
         }
 
         .contentWrapper {

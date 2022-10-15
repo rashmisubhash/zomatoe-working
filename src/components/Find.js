@@ -21,8 +21,8 @@ function Find({ searchQuery }) {
     // return () => setResults([]);
   }, [searchQuery]);
 
-  return (
-    <>
+  return results.length > 0 && (
+    <div className="yup px-10 lg:w-max py-5 w-80 max-w-lg max-h-96">
       {results
         .filter((val) => val.hotelName.toLowerCase().includes(searchQuery))
         .map((val, index) => (
@@ -53,7 +53,7 @@ function Find({ searchQuery }) {
             </div>
           </div>
         ))}
-    </>
+    </div>
   );
 }
 

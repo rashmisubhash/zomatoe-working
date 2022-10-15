@@ -197,7 +197,7 @@ const Header = (props) => {
       {/*This search bar will be appear on device widths 768px or higher and stay hidden on other widths.*/}
       <div
         className={
-          searchQuery ? "absolute  rounded-lg top-20 w-80 max-w-lg px-10 lg:w-max  lg:px-24 py-5 z-10 shadow-md overflow-y-auto max-h-96"
+          searchQuery ? " absolute  rounded-lg top-20 z-10 shadow-md overflow-y-auto"
               : "hidden"
         }>
           {searchQuery ? <Find searchQuery={searchQuery} /> : ""}
